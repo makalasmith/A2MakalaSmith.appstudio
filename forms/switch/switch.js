@@ -19,16 +19,16 @@ let messages =["wear a warm coat, hat, scarf and gloves.", "wear a warm coat but
 
 //switch statement about the users state and weather
 switch(true){
-case (usersState = "NE" && usersTemperature < 32)
+case (usersState = "NE" && usersTemperature < 32):
   console.log(messages[0])
   break
-case (usersState = "NE" && usersTemperature >= 32 && usersTemperature <=50)
+case (usersState = "NE" && usersTemperature >= 32 && usersTemperature <=50):
   console.log(messages[1])
   break
-case (usersState = "FL" && usersTemperature >= 32 && usersTemperature <=50)
+case (usersState = "FL" && usersTemperature >= 32 && usersTemperature <=50):
   console.log(messages[2])
   break
-case (usersState = "FL" && usersTemperature >= 50 && usersTemperature <=70)
+case (usersState = "FL" && usersTemperature >= 50 && usersTemperature <=70):
   console.log(messages[3])
 }
 
